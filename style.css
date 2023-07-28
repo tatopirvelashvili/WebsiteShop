@@ -1,0 +1,447 @@
+body {
+    font-family: 'Ubuntu', sans-serif!important;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 0px;
+}
+
+.header-container-outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(32, 29, 29, 0.925);
+    padding: 0px;
+    border-bottom: 3px solid rgb(4, 187, 187);
+    height: 85px;
+}
+
+.header-container-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    padding: 0px;
+}
+
+.header-container-inner aside:first-child h1 {
+    font-size: 40px;
+    margin: 10px;
+    color: #fff;
+}
+
+.header-container-inner aside:first-child span {
+    color: rgb(4, 187, 187);
+}
+
+.header-container-inner aside:last-child ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.header-container-inner aside:last-child li {
+    margin: 10px;
+    font-size: 18px;
+    list-style: none;
+    transition: 0.2s;
+    font-weight: 500;
+}
+
+.header-container-inner aside:last-child li:hover {
+    font-size: 18.5px;
+    margin: 9.5px;
+}
+
+.active {
+    color: rgb(4, 187, 187)!important;
+}
+
+.header-container-inner aside:last-child li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.img-container {
+    width: 100%;
+    height: auto;
+}
+
+.img-container img {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+}
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 85px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+}
+
+.showcase div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.showcase h1 {
+    color: #fff;
+    font-size: 42px;
+}
+
+.showcase button {
+    width: 170px;
+    height: 32px;
+    border-radius: 7px;
+    border: none;
+    background: rgb(27, 224, 224);
+    color: #fff;
+    font-size: 18px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    transition: 0.3s;
+}
+
+.showcase button:hover {
+    background: rgb(9, 138, 138);
+    height: 30px;
+}
+
+main {
+    padding-top: 20px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top: 3px solid rgb(4, 187, 187);
+}
+
+.card-promotion {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.card-container-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
+
+.col-md-4 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.col-md-4 .fas {
+    font-size: 110px;
+    margin: 5px;
+    color: rgb(54, 190, 190);
+}
+
+.responsive-img {
+    margin: 5px;
+    height: 148px;
+    width: 162px;
+}
+
+.card-promotion .card {
+    height: 162px!important;
+    border: 2px solid rgb(45, 196, 196)!important;
+    background: rgba(247, 245, 245, 0.959)!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.promotion-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.promotion-header div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.promotion-header div hr {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: rgb(60, 204, 204);
+    height: 3px;
+    width: 170px;
+    border: none;
+    margin: 0px;
+}
+
+.promotion-header div h1 {
+    font-size: 40px;
+    color: rgba(43, 39, 39, 0.925);
+    margin: 10px;
+}
+
+.carousel-container-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 3px solid rgb(4, 187, 187);
+    margin-top: 60px;
+    padding: 0px;
+    border-bottom: 2px solid rgb(4, 187, 187);
+}
+
+.carousel-container-section img {
+    width: 100%!important;
+    object-fit: cover;
+    height: 640px;
+}
+
+.carousel-container-section .slide {
+    width: 100%!important;
+    height: 640px;
+}
+
+.projects {
+    padding-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.project-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+}
+
+.project-container .card {
+    width: 400px!important;
+    height: 220px!important;
+    text-align: center;
+    font-weight: 600!important;
+    transition: 0.2s;
+    border: 1.5px solid rgb(4, 187, 187);
+    background: #f1efef;
+}
+
+.project-container .card:hover {
+    opacity: 0.8;
+    height: 218px!important;
+}
+
+.project-container img {
+    width: 100%;
+    height: 190px;
+}
+
+.project-container .card-body {
+    margin: auto;
+    height: 20px!important;
+    padding: 0px!important;
+}
+
+.card-body p {
+    margin: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(32, 29, 29, 0.925);
+    border-top: 2px solid rgb(4, 187, 187);
+    color: #fff;
+    height: 80px;
+    padding-bottom: 0px;
+    margin: auto;
+}
+
+footer section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+    height: 100%;
+    margin: auto;
+}
+
+footer aside {
+    width: 50%;
+}
+
+footer aside:last-child {
+    text-align: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    margin: 0px;
+    font-size: 18px;
+}
+
+footer aside:last-child ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+
+footer aside:last-child li {
+    list-style: none;
+    margin: 10px;
+    font-size: 18px;
+}
+
+footer aside:last-child a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.offers-container-article {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+    justify-content: center;
+}
+
+.offer-card-selfmade {
+    background: rgba(247, 245, 245, 0.959);
+    border: 3px solid rgb(60, 204, 204);
+    border-radius: 3px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 40%;
+    margin: 30px;
+    align-items: center;
+    text-align: center;
+    transition: 0.1s;
+}
+
+.offer-card-selfmade:hover {
+    opacity: 0.65;
+    width: 40.2%;
+}
+
+.offer-card-selfmade p {
+    font-size: 18px;
+}
+
+.offer-card-selfmade span {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.offer-card-selfmade h5 {
+    font-size: 22px;
+}
+
+.offer-card-selfmade ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    /* text-align: left; */
+}
+
+.offer-card-selfmade ul li {
+    list-style: none;
+}
+
+.fa-times {
+    font-size: 17.7px;
+    margin-right: 3.5px;
+}
+
+@media only screen and (max-width: 768px) 
+{
+    .header-container-inner{
+        width: 95%!important;
+    }
+    .header-container-outer{
+        height: auto!important;
+    }
+    
+    .header-container-inner aside:last-child ul {
+        margin: 0px;
+        padding: 0px;
+        text-align: center
+    }
+    
+    .header-container-inner aside:first-child h1 {
+        font-size: 35px!important;
+    }
+
+    .col-md-4 .fas {
+        display: none!important;
+    }
+
+    .project-container .card {
+        margin-top: 25px;
+    }
+    .project-container img {
+        object-fit: cover;
+    }
+    .displayyerdiv {
+        display: block!important;
+    }
+    .offer-card-selfmade {
+        width: 95%;
+    }
+};
